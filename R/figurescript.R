@@ -25,7 +25,6 @@ ggsave("fig1_assortment.png", p_spat, width = 6.5, height = 4)
 ######
 #Figure 2
 
-
 data <- read.table("../ifd_evol/results/nochange_inilowcomp.txt", sep="\t", header = F)
 
 df <- (t(subset(data, select = -c(V1, V1002))))
