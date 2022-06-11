@@ -17,7 +17,7 @@ replicate the simulation data used for publication.
 
 In the following a generic overview of the source code files shared between the three models
 
-##Source Code
+## Key files and code
 
 - `rnd.hpp`, `rnd.cpp` and `rndutils.hpp` Random number generation and custom distributions (`mutable_discrete_distribution`).
 
@@ -39,8 +39,6 @@ In the following a generic overview of the source code files shared between the 
 - `cached.hpp`
 
    - Contained only in ifd_evol. Describes the classes storing and refilling the caches for distribution draws (gillespie algorithm, landscape sampling).
-
-##Settings and model runs
 
 - `config.ini`
 
