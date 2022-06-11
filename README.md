@@ -1,11 +1,11 @@
 # unequal_competitors
 
-Developed by [Christoph Netz](https://www.rug.nl/staff/c.f.g.netz/) at the Groningen Institute for Evolutionary Life Science, at the University of Groningen.
+Developed by [Christoph Netz](https://www.rug.nl/staff/c.f.g.netz/) and [Aparajitha Ramesh](https://www.rug.nl/staff/a.ramesh/) at the Groningen Institute for Evolutionary Life Science, at the University of Groningen.
 
 This repository contains three simulation programs written in C++ used to study the ideal free distribution (IFD) of unequal competitors. 
-(1) ifd_finder_fewpatches models the redistribution of foragers over a few patches starting from two different initial distributions.
-(2) ifd_finder_grid similarly models the redistribution of foragers over a larger grid of patches, starting from a random distribution of foragers acros patches. 
-(3) ifd_evol contains model (2) at the ecological level, adding the capacity for landscape change, and allowing the evolution of competitive abilities over successive generations.
+(1) `ifd_finder_fewpatches` models the redistribution of foragers over a few patches starting from two different initial distributions.
+(2) `ifd_finder_grid` similarly models the redistribution of foragers over a larger grid of patches, starting from a random distribution of foragers acros patches. 
+(3) `ifd_evol` contains model (2) at the ecological level, adding the capacity for landscape change, and allowing the evolution of competitive abilities over successive generations.
 
 
 ## Organization
